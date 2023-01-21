@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({}) => {
   const menutItems= <>
          <li><Link to="/">Home</Link></li>
         <li><Link to="/appointment">Appointment</Link></li>
@@ -11,7 +11,7 @@ const Navbar = () => {
          <li><Link to="/login">Login</Link></li>
   </>
     return (
-        <div class="navbar bg-base-100 px-12">
+        <div class="navbar  px-12 bg-gradient-to-r from-accent to-primary  shadow-lg ">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -21,10 +21,10 @@ const Navbar = () => {
      {menutItems}
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl text-primary">Ru Doctors</a>
+    <a class="btn btn-ghost normal-case text-xl text-white font-bold">Ru Doctors</a>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
+    <ul class="menu menu-horizontal px-2 pe-5 ps-5 font-bold text-white">
    {menutItems}
     </ul>
   </div>
