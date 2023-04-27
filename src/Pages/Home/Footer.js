@@ -1,14 +1,15 @@
 import React from 'react';
 import footer from '../../assets/images/footer.png'
+import css from './Footer.css'
 
 const Footer = () => {
     return (
 
-        <footer style={{
+        <footer  style={{
             background:`url(${footer})`,
            backgroundSize:'cover'
 
-        }} className="p-12 mb-0 ">
+        }} className="p-12 mb-0 foot">
     <div className='footer'>
     <div>
           <span className="footer-title">Services</span> 
