@@ -21,10 +21,10 @@ const Navbar = ({}) => {
      {menutItems}
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl text-white font-bold">Ru Doctors</a>
+    <a class="btn btn-ghost normal-case text-xl text-white font-bold"> Ru Doctors</a>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-2 pe-5 ps-5 font-bold text-white">
+    <ul class="menu menu-horizontal px-2 pe-5 ps-5 ml-32 font-bold text-white">
    {menutItems}
     </ul>
   </div>

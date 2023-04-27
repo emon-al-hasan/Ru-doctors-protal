@@ -9,7 +9,7 @@ const Serve = () => {
             </div>
 
             <div className='mt-14 pr-24'>
-                <h1 className='text-sky-900 font-bold text-5xl my-7'>Exceptional Dental Care,on Your Terms</h1>
+                <h1 className='text-sky-900 font-bold text-5xl my-7'>Exceptional Health Care,on Your Terms</h1>
                 <p className='text-lg'>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Dental or oral health is concerned with your teeth, gums and mouth. The goal is to prevent complications such as tooth decay (cavities) and gum disease and to maintain the overall health of your mouth.A healthy mouth, free of infections, injuries and other problems with teeth and gums, is important in maintaining your overall health.</p>
                 <button class="btn  btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary mt-7 ">Get Started</button>
 
