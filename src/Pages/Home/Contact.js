@@ -2,7 +2,7 @@ import React from 'react';
 import appointments from '../../assets/images/appointment.png'
 const Contact = () => {
     return (
- <div className='mb-36 ' style={
+ <div className='mb-36  ' style={
     {
         background:`url(${appointments})`,
        backgroundSize:'cover',
@@ -20,7 +20,7 @@ const Contact = () => {
     </div>
     <div className='flex justify-center items-center'>
     <form>
-       <input className='pt-3 pr-52 text-2xl pl-2.5  pb-3 rounded-2xl outline-none' type="email" placeholder='Email Address' /><br />
+       <input className='pt-3 pr-52 text-2xl pl-2.5    pb-3 rounded-2xl outline-none' type="email" placeholder='Email Address' /><br />
        <input className='pt-3 pr-52 text-2xl pl-2.5  pb-3 rounded-2xl mt-3 outline-none' type="email" placeholder='Subject' /><br />
        <input className='pt-3 pr-52 text-2xl pl-2.5  pb-32 rounded-2xl mt-3 outline-none' type="email" placeholder='Your message' /><br />
  <div className='flex justify-center items-center mt-5'>

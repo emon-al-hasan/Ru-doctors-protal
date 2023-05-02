@@ -11,7 +11,7 @@ const Navbar = ({}) => {
          <li><Link to="/login">Login</Link></li>
   </>
     return (
-        <div class="navbar  px-12 bg-gradient-to-r from-accent to-primary  shadow-lg ">
+        <div class="navbar  px-12 bg-gradient-to-r from-accent to-primary  shadow-lg fixed z-20 ">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">

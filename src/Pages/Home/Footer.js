@@ -36,7 +36,7 @@ const Footer = () => {
   
   <div className=" my-10 text-center">
   
-    <p className='font-semibold'>Copyright © 2023 - All right reserved</p>
+    <p className='font-semibold text-center'>Copyright © 2023 - All right reserved</p>
   </div> 
 
  
