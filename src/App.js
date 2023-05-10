@@ -1,10 +1,14 @@
 import './App.css';
 import Navbar from './Pages/Shared/Navbar';
-import {Routes,Route,Link} from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
-import Login from './Pages/Login/Login';
+
 import Appointment from './Pages/Appointment/Appointment';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
+import RequireAuth from './Pages/RequireAuth';
+
 
 
 
@@ -16,8 +20,12 @@ function App() {
 <Routes>
   <Route path="/" element={<Home />} />
   <Route path="about" element={<About />}/>
-  <Route path="appointment" element={<Appointment />}/>
-  <Route path="login" element={<Login />}/>
+  <Route path="appointment" element={<RequireAuth>
+    <Appointment />
+  </RequireAuth>}/>
+<Route path='login' element={<Login></Login>}></Route>
+<Route path='signup' element={<Signup></Signup>}></Route>
+
 
 </Routes>
 

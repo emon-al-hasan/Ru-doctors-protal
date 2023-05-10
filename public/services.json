@@ -1,6 +1,5 @@
 [
     {
-      "_id": 1,
       "name": "Physical medicine ",
       "slots": [
         "08.00 AM - 08.30 AM",
@@ -22,7 +21,6 @@
       ]
     },
     {
-      "_id": 2,
       "name": "Ear,Nose,Throat",
       "slots": [
         "10.00 AM - 10.30 AM",
@@ -38,14 +36,12 @@
       ]
     },
     {
-      "_id": 3,
       "name": "Physical therapy",
       "slots": [
         
       ]
     },
     {
-      "_id": 4,
       "name": "Primary care",
       "slots": [
         "3.30 PM - 4.00 PM",
@@ -54,7 +50,6 @@
       ]
     },
     {
-      "_id": 5,
       "name": "Pediatric Dental",
       "slots": [
   
@@ -69,7 +64,6 @@
       ]
     },
     {
-      "_id": 6,
       "name": "Neurology",
       "slots": [
         "08.00 AM - 08.30 AM",
