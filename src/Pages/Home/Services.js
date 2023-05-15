@@ -1,7 +1,10 @@
 import React from 'react';
 import flouride from '../../assets/images/fluoride.png';
-import cavity from '../../assets/images/cavity.png';
-import whitening from '../../assets/images/whitening.png';
+import care from '../../assets/images/care.jpg';
+import neurology from '../../assets/images/neurology.jpg';
+import ears from '../../assets/images/ears.png'
+import physical from '../../assets/images/physical.png'
+import ortho from '../../assets/images/ortho.png'
 import Service from './Service';
 
 const Services = () => {
@@ -14,16 +17,37 @@ const Services = () => {
         },
         {
             _id: 2,
-            name: 'Cavity Filling',
-            description:'A filling is used to treat a small hole, or cavity, in a tooth.',
-            img:cavity
+            name: 'Ear,Nose,Throat',
+            description:'Best service for Ear,Nose,Throat with world class doctors.',
+            img:ears
         },
         {
             _id: 3,
-            name: 'Teeth Whitening',
-            description:'Teeth whitening involves bleaching your teeth to make them lighter.',
-            img:whitening
-        }
+            name: 'Primary care',
+            description:'Primary health care for all types of patient',
+            img:care
+        },
+        {
+            _id: 4,
+            name: 'Neurology',
+            description:'One of the best neurological service we provide to our patient.',
+            img:neurology
+        },
+        {
+            _id: 5,
+            name: 'Orthopedics',
+            description:'There are World class orthopedics surgeon provides best quality services. ',
+            img:ortho
+        },
+        {
+            _id: 6,
+            name: 'Physical Therapy',
+            description:'Physical therapy service to relive pain,strengthen weakened muscles',
+            img:physical
+        },
+      
+   
+   
 
     ]
     return (
