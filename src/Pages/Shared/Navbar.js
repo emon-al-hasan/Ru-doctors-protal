@@ -9,6 +9,7 @@ const Navbar = ({}) => {
 
   const logout = () => {
     signOut(auth);
+    localStorage.removeItem('accessToken')
   };
   
 
@@ -34,7 +35,7 @@ const Navbar = ({}) => {
      {menutItems}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl text-white font-bold"> Ru Doctors</a>
+    <a className="btn btn-ghost normal-case text-xl text-white font-bold">  Doctor's Appointment</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-2 pe-5 ps-5 ml-32 font-bold text-white">

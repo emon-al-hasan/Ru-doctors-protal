@@ -18,7 +18,7 @@ const BookingModal = ({ treatment, date,setTreatment,refetch }) => {
             treatment:name,
             date:formatedDate,
             slot,
-            patientEmail:user.email,
+            patient:user.email,
             patientName:user.displayName,
             phone:event.target.phone.value
         }
@@ -62,7 +62,7 @@ const BookingModal = ({ treatment, date,setTreatment,refetch }) => {
                         </select>
                         <input name="name" type="text"  disabled value={user?.displayName || ''} className="input input-bordered w-full max-w-xs" />
                         <input name="email" type="text" disabled value={user?.email || ''} className="input input-bordered w-full max-w-xs" />
-                        <input name="phone" type="text" placeholder="Phone Number" className="input input-bordered w-full max-w-xs" />
+                        <input name="phone" type="text" placeholder="Phone Number" className="input input-bordered w-full max-w-xs" required />
                     
                                <input type="submit"
                             value="submit"
