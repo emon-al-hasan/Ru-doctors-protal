@@ -29,7 +29,7 @@ fetch(`http://localhost:5000/user/admin/${email}`,{
 
             <td>{email}</td>
             <td>{role !=='admin' &&   <button class="btn btn-xs" onClick={makeAdmin}>Make Admin</button>}</td>
-            <td><button class="btn btn-xs">Remove User</button></td>
+            <td><button class="btn btn-xs btn-error">Remove User</button></td>
         </tr>
     );
 };

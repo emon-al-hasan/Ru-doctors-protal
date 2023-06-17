@@ -24,9 +24,9 @@ const Users = () => {
     <thead>
       <tr className='text-center'>
         
-        <th>Email</th>
-        <th>User Role</th>
-        <th>Delete</th>
+        <th className=' text-primary font-bold text-2xl'>Email</th>
+        <th className=' text-primary font-bold text-2xl'>User Role</th>
+        <th className=' text-primary font-bold text-2xl'>Action</th>
       </tr>
     </thead>
     <tbody>
